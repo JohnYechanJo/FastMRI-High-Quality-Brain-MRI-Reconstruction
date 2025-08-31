@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./FastMRI-Brain-MRI-Reconstruction.png" alt="FastMRI Brain MRI Reconstruction">
+<img src="./FastMRI- High-Quality Brain MRI Reconstruction.png" alt="FastMRI Brain MRI Reconstruction">
 <br>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4&height=80">
 <h1>FastMRI: High-Quality Brain MRI Reconstruction</h1>
