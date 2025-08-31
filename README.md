@@ -1,5 +1,5 @@
 # FastMRI: High-Quality Brain MRI Reconstruction
-Overview
+# Overview
 This project accelerates MRI imaging using Compressed Sensing (CS) to reconstruct high-quality brain MRIs from undersampled k-space data, reducing scan times while preserving diagnostic quality. We developed DR-CAM-GAN, a U-net-based model with Dilated Residual (DR) networks and Channel Attention Mechanisms (CAM), and later adopted WGAN-GP to improve training stability. The project uses the NYU fastMRI dataset and achieves significant performance gains.
 Key Features
 
@@ -13,7 +13,7 @@ WGAN-GP: PSNR: 31.1499 dB, SSIM: 0.8302
 
 Implementation: PyTorch, trained on NVIDIA RTX 3090 GPU with Adam optimizer.
 
-Methodology
+# Methodology
 
 DR-CAM-GAN: Trained with binary cross-entropy loss, leveraging CAM with global max/avg pooling to emphasize anatomical details.
 WGAN-GP: Employs Wasserstein loss and gradient penalty for improved convergence and stability.
@@ -23,7 +23,7 @@ Structural Similarity Index (SSIM): Assesses perceptual quality.
 
 
 
-Challenges
+# Challenges
 
 DR-CAM-GAN:
 Mode collapse from Jensen-Shannon divergence, reducing sample diversity.
@@ -36,7 +36,7 @@ Gradient penalty ensures stable training over weight clipping.
 
 
 
-Results
+# Results
 
 
 
