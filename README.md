@@ -59,6 +59,3 @@ WGAN-GP significantly improves reconstruction quality, enhancing diagnostic pote
 # Clone the repository
 git clone https://github.com/JohnYechanJo/FastMRI-High-Quality-Brain-MRI-Reconstruction.git
 cd FastMRI-High-Quality-Brain-MRI-Reconstruction
-
-# Install dependencies
-pip install -r requirements.txt
